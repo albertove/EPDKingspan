@@ -1,5 +1,30 @@
-streamlit>=1.31.0
+# Web Application Framework
+streamlit>=1.32.0
+
+# Data Processing and Analysis
 pandas>=2.2.0
+numpy>=1.26.0
+
+# Data Visualization
 plotly>=5.18.0
-openpyxl>=3.1.2
-geopy>=2.4.1 
+folium>=0.15.0
+streamlit-folium>=0.15.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Security
+cryptography>=42.0.0  # For hashlib support
+
+# Development Tools
+python-dotenv>=1.0.0  # For environment variable management
+black>=24.1.0  # Code formatting
+flake8>=7.0.0  # Code linting
+
+# Excel File Handling
+openpyxl>=3.1.0  # For Excel file support in pandas
+xlrd>=2.0.1  # For older Excel files support
+
+# Optional but recommended
+streamlit-option-menu>=0.3.12  # For better menu handling
+streamlit-extras>=0.3.5  # Additional Streamlit components 
