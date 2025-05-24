@@ -1,1 +1,77 @@
+/* Base font size */
+.stApp {
+    font-size: 18px;
+}
 
+/* Style headers */
+h1 {
+    font-size: 2.5em !important;
+    color: #2c3e50 !important;
+    padding-bottom: 1em !important;
+}
+
+h2 {
+    font-size: 2em !important;
+    color: #34495e !important;
+    padding-bottom: 0.5em !important;
+}
+
+/* Style selectbox and multiselect labels */
+.stSelectbox label, .stMultiSelect label {
+    font-size: 1.2em !important;
+    color: #2c3e50 !important;
+    font-weight: 500 !important;
+}
+
+/* Style multiselect background and text */
+.stMultiSelect [data-baseweb="select"] {
+    background-color: #f0f0f0 !important;
+}
+
+.stMultiSelect [data-baseweb="select"] div {
+    color: black !important;
+}
+
+/* Style selected options in multiselect */
+.stMultiSelect [data-baseweb="select"] [data-baseweb="tag"] {
+    background-color: #e0e0e0 !important;
+    color: black !important;
+    border: 1px solid #bdbdbd !important;
+}
+
+.stMultiSelect [data-baseweb="select"] [data-baseweb="tag"] span {
+    color: black !important;
+}
+
+/* Style buttons */
+.stButton button {
+    font-size: 1.1em !important;
+    font-weight: 500 !important;
+    padding: 0.5em 1em !important;
+    background-color: #2c3e50 !important;
+    color: white !important;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.stButton button:hover {
+    background-color: #1a252f !important;
+}
+
+/* Style metrics */
+.stMetric {
+    font-size: 1.3em !important;
+}
+
+/* Style dataframes */
+.stDataFrame {
+    font-size: 1.1em !important;
+}
+
+/* Style success and error messages */
+.stSuccess, .stError {
+    font-size: 1.2em !important;
+    padding: 1em !important;
+}
