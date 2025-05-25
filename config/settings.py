@@ -1,4 +1,4 @@
-APP_TITLE = "Kingspan EPD Dashboard"
+APP_TITLE = "EPD Dashboard"
 
 # API Keys
 ORS_API_KEY = "5b3ce3597851110001cf624871af2c4928684daca8e57b947cec74f7"
