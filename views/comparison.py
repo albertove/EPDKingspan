@@ -30,7 +30,7 @@ def compare_products(df1, df2, series, dimension, pipe_type1, pipe_type2):
     return combined, None
 
 def show():
-    st.title("Kingspan EPD Dashboard")
+    st.title("EPD Dashboard")
 
     comparison_mode = st.radio(
         "Select mode:",
