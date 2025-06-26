@@ -43,9 +43,9 @@ def show():
         
         # Map pipe types to their corresponding Excel files
         file_mapping = {
-            "Single": "data/EPD_singel_series_kingspan.xlsx",
+            "Single": "data/EPD_single_series_kingspan.xlsx",
             "Twin": "data/EPD_twin_series_kingspan.xlsx",
-            "Single Recase": "data/EPD_singel_series_recase_kingspan.xlsx",
+            "Single Recase": "data/EPD_single_series_recase_kingspan.xlsx",
             "Twin Recase": "data/EPD_twin_series_recase_kingspan.xlsx"
         }
         
@@ -73,8 +73,8 @@ def show():
         col1, col2 = st.columns(2)
         with col1:
             pipe_type1 = st.selectbox("Select First Pipe Type:", ["Single", "Single Recase", "Twin", "Twin Recase"])
-            file1 = "data/EPD_singel_series_kingspan.xlsx" if pipe_type1 == "Single" else \
-                   "data/EPD_singel_series_recase_kingspan.xlsx" if pipe_type1 == "Single Recase" else \
+            file1 = "data/EPD_single_series_kingspan.xlsx" if pipe_type1 == "Single" else \
+                   "data/EPD_single_series_recase_kingspan.xlsx" if pipe_type1 == "Single Recase" else \
                    "data/EPD_twin_series_kingspan.xlsx" if pipe_type1 == "Twin" else \
                    "data/EPD_twin_series_recase_kingspan.xlsx"
             
@@ -82,8 +82,8 @@ def show():
             
         with col2:
             pipe_type2 = st.selectbox("Select Second Pipe Type:", ["Single", "Single Recase", "Twin", "Twin Recase"])
-            file2 = "data/EPD_singel_series_kingspan.xlsx" if pipe_type2 == "Single" else \
-                   "data/EPD_singel_series_recase_kingspan.xlsx" if pipe_type2 == "Single Recase" else \
+            file2 = "data/EPD_single_series_kingspan.xlsx" if pipe_type2 == "Single" else \
+                   "data/EPD_single_series_recase_kingspan.xlsx" if pipe_type2 == "Single Recase" else \
                    "data/EPD_twin_series_kingspan.xlsx" if pipe_type2 == "Twin" else \
                    "data/EPD_twin_series_recase_kingspan.xlsx"
             
